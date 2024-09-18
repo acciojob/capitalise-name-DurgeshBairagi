@@ -1,1 +1,4 @@
-//your JS code here. If required.
+document.getElementById("fname").onblur = function() {
+            // Convert input value to uppercase
+            this.value = this.value.toUpperCase();
+        };
